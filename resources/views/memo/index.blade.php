@@ -1,6 +1,8 @@
-@extends('components/layout')
+{{-- @extends('components/layout') --}}
 <x-layout>
+{{-- @section('content') --}}
     <a href="{{ route('memo.index') }}" class="text-light text-decoration-none">
-        igasaki
+        AAA
     </a>
+{{-- @endsection --}}
 </x-layout>

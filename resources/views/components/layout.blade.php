@@ -1,4 +1,3 @@
-@section
 <!doctype html>
 <html lang="ja">
 
@@ -84,7 +83,8 @@
     </header>
 
     <main>
-        @yeild
+        {{-- @yeild('content') --}}
+        {{ $slot }}
     </main>
 
     <footer>
@@ -102,4 +102,3 @@
 </body>
 
 </html>
-@endsection
